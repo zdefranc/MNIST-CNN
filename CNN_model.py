@@ -21,9 +21,9 @@ WEIGHT_DECAY = 0.00012098564799135106
 '''The weight provided for the L2 regularization'''
 
 def get_mnist():
-    '''Gets the FashionMNIST data set and returns the training and testing DataLoader.'''
+    '''Gets the MNIST data set and returns the training and testing DataLoader.'''
     
-    # Load FashionMNIST dataset.
+    # Load MNIST dataset.
     train_loader = torch.utils.data.DataLoader(
         datasets.MNIST(DIR, train=True, download=True, transform=transforms.ToTensor()),
         batch_size=BATCHSIZE,
