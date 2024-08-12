@@ -1,0 +1,12 @@
+# torch was installed for M1 Mac separately
+
+# Required packages in notebooks
+datasets
+evaluate
+matplotlib
+numpy
+scipy
+scikit-learn
+tqdm
+
+optuna
