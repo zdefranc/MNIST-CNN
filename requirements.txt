@@ -1,6 +1,6 @@
 # torch was installed for M1 Mac separately
 
-# Required packages in notebooks
+# Required packages
 datasets
 evaluate
 matplotlib
